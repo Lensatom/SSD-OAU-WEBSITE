@@ -1,0 +1,46 @@
+* {
+ padding: 0;
+ margin: 0;
+ font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #475841;
+  color: #DFF8D5;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
+header a {
+  color: #DFF8D5;
+  text-decoration: underline;
+  text-decoration-color: green;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+main {
+  padding: 20px 200px;
+}
+main p {
+  margin-top: 10px;
+}
+
+.motion-ground { 
+  margin-top: 20px;
+}
